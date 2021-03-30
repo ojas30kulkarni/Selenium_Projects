@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AddCustomer"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.734">
+  <properties />
+  
+  
+            <testcase name="addCustomerTest" time="0.598" classname="com.QAAutomation.TestCases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="1.442" classname="com.QAAutomation.TestCases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="0.694" classname="com.QAAutomation.TestCases.AddCustomerTest" />
+      
+</testsuite>

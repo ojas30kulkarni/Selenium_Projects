@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.855 s <<< FAILURE! - in TestSuite
+addCustomerTest(com.QAAutomation.TestCases.AddCustomerTest)  Time elapsed: 0.089 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : Account created successfully with account Number :1016}
+  (Session info: chrome=89.0.4389.72): Account created successfully with account Number :1016
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'Ojass-MacBook-Air.local', ip: 'fe80:0:0:0:1c17:9228:5b91:b6a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}), userDataDir=/var/folders/p3/zbjxyb8s0nnf5dyx6l_yr0dc0000gn/T/.com.google.Chrome.f52Vwx}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=MAC, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:58039}, acceptInsecureCerts=false, browserVersion=89.0.4389.72, browserName=chrome, javascriptEnabled=true, platformName=MAC, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 3a14039aac69784e762ace2bba004327
+*** Element info: {Using=xpath, value=//button[contains(text(),'Add Customer')]}
+	at com.QAAutomation.TestCases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:26)
+

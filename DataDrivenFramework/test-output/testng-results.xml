@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Bank manager Login Test Pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5626" started-at="2021-03-30T19:15:31 EDT" finished-at="2021-03-30T19:15:37 EDT">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="681" started-at="2021-03-30T19:15:31 EDT" finished-at="2021-03-30T19:15:32 EDT">
+      <class name="com.QAAutomation.TestCases.BankManagerLoginTest">
+        <test-method status="PASS" signature="LoginAsBankManager()[pri:0, instance:com.QAAutomation.TestCases.BankManagerLoginTest@4ce1d6d0]" name="LoginAsBankManager" duration-ms="634" started-at="2021-03-30T19:15:31 EDT" finished-at="2021-03-30T19:15:32 EDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Bank manager Login Test Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginAsBankManager -->
+      </class> <!-- com.QAAutomation.TestCases.BankManagerLoginTest -->
+    </test> <!-- LoginTest -->
+    <test name="AddCustomer" duration-ms="2796" started-at="2021-03-30T19:15:33 EDT" finished-at="2021-03-30T19:15:36 EDT">
+      <class name="com.QAAutomation.TestCases.AddCustomerTest">
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.QAAutomation.TestCases.AddCustomerTest@77825085]" name="addCustomerTest" duration-ms="1442" started-at="2021-03-30T19:15:33 EDT" data-provider="dp" finished-at="2021-03-30T19:15:35 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ojas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kulkarni]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N2L3W6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.QAAutomation.TestCases.AddCustomerTest@77825085]" name="addCustomerTest" duration-ms="694" started-at="2021-03-30T19:15:35 EDT" data-provider="dp" finished-at="2021-03-30T19:15:35 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dwdw]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qdqd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qdqd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.QAAutomation.TestCases.AddCustomerTest@77825085]" name="addCustomerTest" duration-ms="598" started-at="2021-03-30T19:15:35 EDT" data-provider="dp" finished-at="2021-03-30T19:15:36 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qdd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ddd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dqdqd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+      </class> <!-- com.QAAutomation.TestCases.AddCustomerTest -->
+    </test> <!-- AddCustomer -->
+    <test name="OpenAccount" duration-ms="957" started-at="2021-03-30T19:15:36 EDT" finished-at="2021-03-30T19:15:37 EDT">
+      <class name="com.QAAutomation.TestCases.OpenAccountTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.QAAutomation.TestCases.OpenAccountTest@3549bca9]" name="SetUp" is-config="true" duration-ms="10189" started-at="2021-03-30T19:15:21 EDT" finished-at="2021-03-30T19:15:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="openAccountTest(java.lang.String, java.lang.String)[pri:0, instance:com.QAAutomation.TestCases.OpenAccountTest@3549bca9]" name="openAccountTest" duration-ms="947" started-at="2021-03-30T19:15:36 EDT" data-provider="dp" finished-at="2021-03-30T19:15:37 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harry Potter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dollar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.QAAutomation.TestCases.OpenAccountTest@3549bca9]" name="tearDown" is-config="true" duration-ms="188" started-at="2021-03-30T19:15:37 EDT" finished-at="2021-03-30T19:15:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.QAAutomation.TestCases.OpenAccountTest -->
+    </test> <!-- OpenAccount -->
+  </suite> <!-- Suite -->
+</testng-results>
